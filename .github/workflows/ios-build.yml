@@ -7,6 +7,10 @@ on:
 jobs:
   build-ios:
     runs-on: macos-latest
+    
+    defaults:
+      run:
+        working-directory: ./frontend
 
     steps:
       - name: Clonar repositorio
@@ -50,4 +54,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ios-app-para-altstore
-          path: app-ionic.ipa
+          path: frontend/app-ionic.ipa
