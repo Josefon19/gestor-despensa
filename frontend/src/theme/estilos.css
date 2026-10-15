@@ -1,0 +1,242 @@
+/* ===== Estilos compartidos y diseño adaptable ===== */
+
+/* Títulos con aire de recetario (fuente serif del sistema, sin descargas) */
+.titulo-serif,
+.texto-aviso h2,
+.texto-aviso h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--color-texto);
+}
+
+/* ---------- Pantallas de acceso (Login y Registro) ---------- */
+.pagina-auth {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bloque de marca: en pantallas altas absorbe el espacio sobrante */
+.hero {
+  flex: 1 0 auto;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--color-terracota);
+  color: #fdfbf7;
+  padding: calc(var(--ion-safe-area-top, 0px) + 24px)
+    max(24px, var(--ion-safe-area-right, 0px)) 72px
+    max(24px, var(--ion-safe-area-left, 0px));
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+.hero__icono {
+  width: clamp(64px, 11vh, 104px);
+  height: clamp(64px, 11vh, 104px);
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  background: rgba(253, 251, 247, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__icono ion-icon {
+  font-size: clamp(34px, 6vh, 56px);
+  color: #fdfbf7;
+}
+.hero .hero__titulo {
+  margin: 0;
+  color: #fdfbf7;
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+  line-height: 1.2;
+}
+.hero__subtitulo {
+  margin: 8px 0 0;
+  font-size: 1rem;
+  opacity: 0.92;
+}
+
+/* Columna del formulario */
+.contenedor {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: calc(20px + var(--ion-safe-area-bottom, 0px));
+  padding-left: max(16px, var(--ion-safe-area-left, 0px));
+  padding-right: max(16px, var(--ion-safe-area-right, 0px));
+  box-sizing: border-box;
+}
+/* Contenedor para páginas de lectura (Aviso de Privacidad, etc.) */
+.contenedor--ancho {
+  max-width: 760px;
+  padding-top: 16px;
+}
+
+/* Tarjeta del formulario: sube y se encima al bloque de marca */
+.tarjeta-form {
+  margin: -48px 0 8px;
+  padding: 20px 16px 12px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(74, 43, 34, 0.12);
+}
+.tarjeta-form h2 {
+  margin: 0 0 16px;
+  font-size: 1.35rem;
+}
+
+/* ---------- Campos y botones ---------- */
+/* Selectores más específicos a propósito: si no, Ionic ignora estos ajustes en los campos */
+:root ion-input.input-fill-outline {
+  --border-radius: 12px;
+  --border-color: rgba(74, 43, 34, 0.28);
+  --highlight-color-focused: var(--ion-color-primary);
+  min-height: 56px;
+  font-size: 1rem;
+}
+ion-button {
+  --border-radius: 12px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+}
+ion-button:not([size]) {
+  min-height: 48px;
+  font-size: 1rem;
+}
+/* Enlaces: terracota más oscuro para que se lean bien sobre la tarjeta */
+ion-button[fill='clear'] {
+  --color: var(--ion-color-primary-shade);
+}
+
+/* ---------- Tabletas (768 px o más): todo más grande y el formulario centrado ---------- */
+@media (min-width: 768px) {
+  .hero {
+    flex: 0 0 auto;
+    min-height: 36vh;
+    min-height: 36dvh;
+    padding-bottom: 56px;
+    border-radius: 0 0 40px 40px;
+  }
+  .hero .hero__titulo {
+    font-size: clamp(2.25rem, 5vw, 3rem);
+  }
+  .hero__subtitulo {
+    font-size: 1.2rem;
+  }
+  .contenedor {
+    flex: 1 1 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 32px;
+  }
+  .tarjeta-form {
+    margin: 0 0 12px;
+    padding: 36px 36px 20px;
+    border-radius: 28px;
+  }
+  .tarjeta-form h2 {
+    font-size: 1.75rem;
+    margin-bottom: 22px;
+  }
+  :root ion-input.input-fill-outline {
+    min-height: 64px;
+    font-size: 1.15rem;
+  }
+  ion-button:not([size]) {
+    min-height: 56px;
+    font-size: 1.1rem;
+  }
+}
+
+/* ---------- Pantalla ancha (tableta horizontal, escritorio): dos columnas ---------- */
+@media (min-width: 1024px) and (min-height: 600px) {
+  .pagina-auth {
+    flex-direction: row;
+  }
+  .hero {
+    flex: 1 1 46%;
+    min-height: 100%;
+    padding-bottom: calc(var(--ion-safe-area-bottom, 0px) + 24px);
+    border-radius: 0 48px 48px 0;
+  }
+  .contenedor {
+    flex: 1 1 54%;
+    max-width: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: calc(var(--ion-safe-area-top, 0px) + 24px);
+  }
+  .contenedor > * {
+    width: 100%;
+    max-width: 560px;
+  }
+  .tarjeta-form {
+    margin: 0 0 12px;
+  }
+
+  /* ---------- Cortina de transición (login → inicio) ---------- */
+/* Vertical por defecto (el bloque terracota está arriba): baja de arriba hacia abajo. */
+.cortina {
+  position: fixed;
+  inset: -48px 0; /* sobresale para que las esquinas redondeadas nunca se vean */
+  z-index: 10000;
+  background: var(--color-terracota);
+  border-radius: 40px;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-100%);
+}
+.cortina--cubriendo,
+.cortina--revelando {
+  visibility: visible;
+  pointer-events: auto; /* evita toques mientras dura la transición */
+  animation-duration: 5000ms;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+  animation-fill-mode: forwards;
+}
+.cortina--cubriendo {
+  animation-name: cortina-entra-v;
+}
+.cortina--revelando {
+  animation-name: cortina-sale-v;
+}
+@keyframes cortina-entra-v {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+@keyframes cortina-sale-v {
+  from { transform: translateY(0); }
+  to { transform: translateY(100%); }
+}
+@keyframes cortina-entra-h {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+@keyframes cortina-sale-h {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
+}
+
+/* Pantalla ancha (dos columnas): el bloque terracota está a la izquierda, así que se desliza hacia la derecha. */
+@media (min-width: 1024px) and (min-height: 600px) {
+  .cortina {
+    inset: 0 -48px;
+    transform: translateX(-100%);
+  }
+  .cortina--cubriendo {
+    animation-name: cortina-entra-h;
+  }
+  .cortina--revelando {
+    animation-name: cortina-sale-h;
+  }
+}
+}

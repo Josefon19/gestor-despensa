@@ -1,2 +1,82 @@
-/* For information on how to create your own theme, please refer to:
-http://ionicframework.com/docs/theming/ */
+/* ===== Paleta del Gestor Inteligente de Despensa ===== */
+
+:root {
+  
+
+  /* Base */
+  --color-terracota: #C86240;
+  --color-acento: #E1925D;
+  --color-fondo: #F7F2E3;
+  --color-tarjeta: #FDFBF7;
+  --color-texto: #4A2B22;
+
+  /* Semáforo de caducidad */
+  --color-caducado: #A32924;
+  --color-pronto: #B88B2D;
+  --color-fresco: #426A4A;
+
+  /* Ionic: principal (terracota) */
+  --ion-color-primary: #C86240;
+  --ion-color-primary-rgb: 200, 98, 64;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #b05638;
+  --ion-color-primary-tint: #ce7253;
+
+  /* Ionic: secundario (acento naranja suave) */
+  --ion-color-secondary: #E1925D;
+  --ion-color-secondary-rgb: 225, 146, 93;
+  --ion-color-secondary-contrast: #4A2B22;
+  --ion-color-secondary-contrast-rgb: 74, 43, 34;
+  --ion-color-secondary-shade: #c68052;
+  --ion-color-secondary-tint: #e49d6d;
+
+  /* Ionic: success = fresco */
+  --ion-color-success: #426A4A;
+  --ion-color-success-rgb: 66, 106, 74;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #3a5d41;
+  --ion-color-success-tint: #55795c;
+
+  /* Ionic: warning = consumir pronto */
+  --ion-color-warning: #B88B2D;
+  --ion-color-warning-rgb: 184, 139, 45;
+  --ion-color-warning-contrast: #4A2B22;
+  --ion-color-warning-contrast-rgb: 74, 43, 34;
+  --ion-color-warning-shade: #a27a28;
+  --ion-color-warning-tint: #bf9742;
+
+  /* Ionic: danger = caducado / urgente */
+  --ion-color-danger: #A32924;
+  --ion-color-danger-rgb: 163, 41, 36;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #8f2420;
+  --ion-color-danger-tint: #ac3e3a;
+
+  /* Fondos y texto */
+  --ion-background-color: #F7F2E3;
+  --ion-background-color-rgb: 247, 242, 227;
+  --ion-text-color: #4A2B22;
+  --ion-text-color-rgb: 74, 43, 34;
+  --ion-card-background: #FDFBF7;
+  --ion-item-background: #FDFBF7;
+  --ion-toolbar-background: #C86240;
+  --ion-toolbar-color: #ffffff;
+  --ion-border-color: rgba(74, 43, 34, 0.18);
+  --ion-placeholder-color: #4A2B22;
+  --ion-placeholder-opacity: 0.55;
+
+  /* La paleta es solo clara: no cambia con el modo oscuro del teléfono */
+  color-scheme: light;
+
+  /* Zonas seguras (notch, Dynamic Island, barras del sistema).
+  iPhone: env(). Android con Capacitor 8: --safe-area-inset-*.
+  Se toma el mayor de los dos, así funciona en ambos. */
+  --ion-safe-area-top: max(var(--safe-area-inset-top, 0px), env(safe-area-inset-top, 0px));
+  --ion-safe-area-right: max(var(--safe-area-inset-right, 0px), env(safe-area-inset-right, 0px));
+  --ion-safe-area-bottom: max(var(--safe-area-inset-bottom, 0px), env(safe-area-inset-bottom, 0px));
+  --ion-safe-area-left: max(var(--safe-area-inset-left, 0px), env(safe-area-inset-left, 0px));
+}
+:root { --ion-safe-area-top: 59px; --ion-safe-area-bottom: 34px; }
