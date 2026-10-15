@@ -1,0 +1,1 @@
+module.exports = { AVISO_VERSION: '1.0' };

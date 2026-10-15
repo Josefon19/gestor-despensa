@@ -12,6 +12,11 @@ const userSchema = new mongoose.Schema(
       match: [/^\S+@\S+\.\S+$/, 'Correo inválido'],
     },
     password: { type: String, required: true }, // siempre el hash, nunca texto plano
+    consentimiento: {
+      aceptado: { type: Boolean, required: true },
+      fecha: { type: Date, required: true },
+      versionAviso: { type: String, required: true },
+    },
   },
   { timestamps: true }
 );

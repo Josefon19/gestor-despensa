@@ -22,6 +22,7 @@ const valido = {
   nombre: 'José Ortega',
   correo: 'jose@correo.com',
   password: 'Clave1234',
+  aceptaAviso: true,
 };
 
 beforeEach(() => {
@@ -53,5 +54,29 @@ describe('Registro', () => {
     await request(app).post('/api/auth/register').send(valido);
     const res = await request(app).post('/api/auth/register').send(valido);
     expect(res.status).toBe(409);
+  });
+});
+
+describe('Aviso de privacidad y consentimiento', () => {
+  test('guarda fecha y versión del aviso aceptado', async () => {
+    await request(app).post('/api/auth/register').send(valido);
+
+    const guardado = User.__usuarios[0];
+    expect(guardado.consentimiento.aceptado).toBe(true);
+    expect(guardado.consentimiento.versionAviso).toBe('1.0');
+    expect(guardado.consentimiento.fecha).toBeInstanceOf(Date);
+  });
+
+  test('rechaza el registro si no se acepta el aviso', async () => {
+    const res = await request(app).post('/api/auth/register').send({ ...valido, aceptaAviso: false });
+    expect(res.status).toBe(400);
+    expect(User.__usuarios).toHaveLength(0);
+  });
+
+  test('rechaza el registro si no se manda el campo aceptaAviso', async () => {
+    const { aceptaAviso, ...sinAviso } = valido;
+    const res = await request(app).post('/api/auth/register').send(sinAviso);
+    expect(res.status).toBe(400);
+    expect(User.__usuarios).toHaveLength(0);
   });
 });
