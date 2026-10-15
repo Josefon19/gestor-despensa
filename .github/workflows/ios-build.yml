@@ -30,7 +30,8 @@ jobs:
       - name: Añadir y sincronizar iOS
         run: |
           npm install @capacitor/ios
-          npx cap add ios || true
+          rm -rf ios
+          npx cap add ios
           npx cap sync ios
 
       - name: Compilar App nativa (Sin firma de Apple)
