@@ -27,13 +27,16 @@ jobs:
       - name: Construir proyecto web React
         run: npx @ionic/cli build
 
-      - name: Sincronizar iOS
-        run: npx cap sync ios
+      - name: Generar iOS desde cero en Mac
+        run: |
+          rm -rf ios
+          npm install @capacitor/ios
+          npx cap add ios
+          npx cap sync ios
 
       - name: Compilar App nativa (Sin firma de Apple)
         run: |
           cd ios/App
-          pod install
           xcodebuild -workspace App.xcworkspace \
             -scheme App \
             -configuration Release \
