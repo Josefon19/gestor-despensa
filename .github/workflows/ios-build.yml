@@ -33,6 +33,7 @@ jobs:
       - name: Compilar App nativa (Sin firma de Apple)
         run: |
           cd ios/App
+          pod install
           xcodebuild -workspace App.xcworkspace \
             -scheme App \
             -configuration Release \
