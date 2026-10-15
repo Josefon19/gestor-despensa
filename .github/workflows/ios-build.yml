@@ -1,0 +1,53 @@
+name: Build iOS IPA para AltStore
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Construir proyecto web React
+        run: npx ionic build
+
+      - name: Añadir y sincronizar iOS
+        run: |
+          npx cap add ios || true
+          npx cap sync ios
+
+      - name: Compilar App nativa (Sin firma de Apple)
+        run: |
+          cd ios/App
+          xcodebuild -workspace App.xcworkspace \
+            -scheme App \
+            -configuration Release \
+            -sdk iphoneos \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Empaquetar a .ipa
+        run: |
+          mkdir -p Payload
+          mv ios/App/build/Release-iphoneos/App.app Payload/
+          zip -r app-ionic.ipa Payload
+
+      - name: Subir .ipa para descargar
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-app-para-altstore
+          path: app-ionic.ipa

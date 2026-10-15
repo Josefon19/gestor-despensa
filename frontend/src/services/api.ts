@@ -1,0 +1,38 @@
+import { Preferences } from '@capacitor/preferences';
+
+export const API_URL: string = import.meta.env.VITE_API_URL ?? 'http://localhost:3000/api';
+
+const TOKEN_KEY = 'token';
+
+export const guardarToken = (token: string) => Preferences.set({ key: TOKEN_KEY, value: token });
+export const borrarToken = () => Preferences.remove({ key: TOKEN_KEY });
+export const obtenerToken = async (): Promise<string | null> =>
+  (await Preferences.get({ key: TOKEN_KEY })).value;
+
+export async function peticion<T>(
+  ruta: string,
+  opciones: { metodo?: 'GET' | 'POST'; cuerpo?: unknown; conToken?: boolean } = {}
+): Promise<T> {
+  const { metodo = 'GET', cuerpo, conToken = false } = opciones;
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+
+  if (conToken) {
+    const token = await obtenerToken();
+    if (token) headers.Authorization = `Bearer ${token}`;
+  }
+
+  let res: Response;
+  try {
+    res = await fetch(`${API_URL}${ruta}`, {
+      method: metodo,
+      headers,
+      body: cuerpo ? JSON.stringify(cuerpo) : undefined,
+    });
+  } catch {
+    throw new Error('No se pudo conectar con el servidor');
+  }
+
+  const datos = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(datos.mensaje ?? 'Ocurrió un error');
+  return datos as T;
+}
