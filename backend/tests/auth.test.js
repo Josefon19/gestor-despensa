@@ -6,6 +6,7 @@ jest.mock('../src/models/User', () => {
   return {
     __usuarios: usuarios,
     findOne: jest.fn(async ({ correo }) => usuarios.find((u) => u.correo === correo) || null),
+    findById: jest.fn(async (id) => usuarios.find((u) => u._id === id) || null),
     create: jest.fn(async (datos) => {
       const user = { _id: String(usuarios.length + 1), ...datos, correo: datos.correo.toLowerCase().trim() };
       usuarios.push(user);
@@ -78,5 +79,54 @@ describe('Aviso de privacidad y consentimiento', () => {
     const res = await request(app).post('/api/auth/register').send(sinAviso);
     expect(res.status).toBe(400);
     expect(User.__usuarios).toHaveLength(0);
+  });
+});
+
+describe('Login', () => {
+  beforeEach(async () => {
+    await request(app).post('/api/auth/register').send(valido);
+  });
+
+  test('entra con credenciales correctas y devuelve token', async () => {
+    const res = await request(app)
+      .post('/api/auth/login')
+      .send({ correo: valido.correo, password: valido.password });
+    expect(res.status).toBe(200);
+    expect(res.body.token).toBeDefined();
+    expect(res.body.usuario.password).toBeUndefined();
+  });
+
+  test('rechaza contraseña incorrecta', async () => {
+    const res = await request(app)
+      .post('/api/auth/login')
+      .send({ correo: valido.correo, password: 'incorrecta1' });
+    expect(res.status).toBe(401);
+  });
+
+  test('rechaza correo inexistente con el mismo mensaje', async () => {
+    const res = await request(app)
+      .post('/api/auth/login')
+      .send({ correo: 'nadie@correo.com', password: 'Clave1234' });
+    expect(res.status).toBe(401);
+    expect(res.body.mensaje).toBe('Correo o contraseña incorrectos');
+  });
+
+  test('rechaza si faltan datos', async () => {
+    const res = await request(app).post('/api/auth/login').send({ correo: valido.correo });
+    expect(res.status).toBe(400);
+  });
+
+  test('/me exige token y responde con token válido', async () => {
+    const sinToken = await request(app).get('/api/auth/me');
+    expect(sinToken.status).toBe(401);
+
+    const login = await request(app)
+      .post('/api/auth/login')
+      .send({ correo: valido.correo, password: valido.password });
+    const res = await request(app)
+      .get('/api/auth/me')
+      .set('Authorization', `Bearer ${login.body.token}`);
+    expect(res.status).toBe(200);
+    expect(res.body.usuario.correo).toBe(valido.correo);
   });
 });

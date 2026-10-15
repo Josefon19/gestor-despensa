@@ -56,3 +56,32 @@ exports.register = async (req, res) => {
     return res.status(500).json({ mensaje: 'Error del servidor' });
   }
 };
+
+// POST /api/auth/login
+exports.login = async (req, res) => {
+  try {
+    const { correo, password } = req.body;
+    if (!correo || !password) {
+      return res.status(400).json({ mensaje: 'Correo y contraseña son obligatorios' });
+    }
+
+    const user = await User.findOne({ correo: correo.toLowerCase().trim() });
+    const ok = user && (await bcrypt.compare(password, user.password));
+    // Mismo mensaje en ambos casos para no revelar qué correos existen.
+    if (!ok) {
+      return res.status(401).json({ mensaje: 'Correo o contraseña incorrectos' });
+    }
+
+    return res.json({ token: firmarToken(user), usuario: datosPublicos(user) });
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({ mensaje: 'Error del servidor' });
+  }
+};
+
+// GET /api/auth/me (ruta protegida)
+exports.me = async (req, res) => {
+  const user = await User.findById(req.userId);
+  if (!user) return res.status(404).json({ mensaje: 'Usuario no encontrado' });
+  return res.json({ usuario: datosPublicos(user) });
+};
