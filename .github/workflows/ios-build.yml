@@ -29,6 +29,7 @@ jobs:
 
       - name: Añadir y sincronizar iOS
         run: |
+          npm install @capacitor/ios
           npx cap add ios || true
           npx cap sync ios
 
