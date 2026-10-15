@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Construir proyecto web React
-        run: npx ionic build
+        run: npx @ionic/cli build
 
       - name: Añadir y sincronizar iOS
         run: |
