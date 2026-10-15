@@ -35,6 +35,7 @@ export default function Registro() {
     const error = validar();
     if (error) return aviso(error, 'warning');
 
+    
     setEnviando(true);
     try {
       await registrar({ nombre: nombre.trim(), correo: correo.trim(), password, aceptaAviso });
