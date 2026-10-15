@@ -90,6 +90,10 @@ export default function Registro() {
           {enviando ? 'Creando cuenta…' : 'Registrarme'}
         </IonButton>
 
+        <IonButton expand="block" fill="clear" routerLink="/login">
+          Ya tengo cuenta
+        </IonButton>
+
         {/* El aviso se abre en un modal para no perder lo que ya escribiste en el formulario */}
         <IonModal isOpen={verAviso} onDidDismiss={() => setVerAviso(false)}>
           <IonHeader>

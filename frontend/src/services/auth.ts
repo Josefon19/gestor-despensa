@@ -1,4 +1,4 @@
-import { peticion, guardarToken } from './api';
+import { peticion, guardarToken, borrarToken, obtenerToken } from './api';
 
 export interface Usuario {
   id: string;
@@ -21,3 +21,20 @@ export async function registrar(datos: {
   await guardarToken(res.token);
   return res.usuario;
 }
+
+export async function iniciarSesion(correo: string, password: string): Promise<Usuario> {
+  const res = await peticion<RespuestaAuth>('/auth/login', {
+    metodo: 'POST',
+    cuerpo: { correo, password },
+  });
+  await guardarToken(res.token);
+  return res.usuario;
+}
+
+export async function obtenerPerfil(): Promise<Usuario> {
+  const res = await peticion<{ usuario: Usuario }>('/auth/me', { conToken: true });
+  return res.usuario;
+}
+
+export const cerrarSesion = () => borrarToken();
+export const haySesion = async () => (await obtenerToken()) !== null;

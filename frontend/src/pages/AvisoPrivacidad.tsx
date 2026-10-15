@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonBackButton, IonButtons, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import TextoAviso from '../components/TextoAviso';
 
 export default function AvisoPrivacidad() {
@@ -6,6 +6,9 @@ export default function AvisoPrivacidad() {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <IonButtons slot="start">
+            <IonBackButton defaultHref="/login" />
+          </IonButtons>
           <IonTitle>Aviso de Privacidad</IonTitle>
         </IonToolbar>
       </IonHeader>
