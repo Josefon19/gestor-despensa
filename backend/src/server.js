@@ -1,13 +1,19 @@
-require('dotenv').config();
+require('dotenv').config(); // Carga las variables de tu .env
 const app = require('./app');
-const Database = require('./config/db');
+const mongoose = require('mongoose');
 
 const PORT = process.env.PORT || 3000;
+// Ahora busca exactamente el nombre que pusiste en tu archivo .env
+const DB_URI = process.env.DB_URI; 
 
-Database.getInstance()
-  .connect()
-  .then(() => app.listen(PORT, () => console.log(`API en http://localhost:${PORT}`)))
+mongoose.connect(DB_URI)
+  .then(() => {
+    console.log('Base de datos conectada exitosamente');
+    app.listen(PORT, () => {
+      console.log(`Servidor corriendo en http://localhost:${PORT}`);
+    });
+  })
   .catch((err) => {
-    console.error('No se pudo conectar a MongoDB:', err.message);
+    console.error('Error al conectar a MongoDB:', err);
     process.exit(1);
   });

@@ -14,11 +14,15 @@ const datosPublicos = (user) => ({
   correo: user.correo,
 });
 
-// POST /api/auth/register
+
 // POST /api/auth/register
 exports.register = async (req, res) => {
   try {
     const { nombre, correo, password, aceptaAviso } = req.body;
+    
+    if (typeof nombre !== 'string' || typeof correo !== 'string' || typeof password !== 'string') {
+      return res.status(400).json({ mensaje: 'Formato de datos inválido' });
+    }
 
     if (!nombre || !correo || !password) {
       return res.status(400).json({ mensaje: 'Nombre, correo y contraseña son obligatorios' });
@@ -61,13 +65,19 @@ exports.register = async (req, res) => {
 exports.login = async (req, res) => {
   try {
     const { correo, password } = req.body;
-    if (!correo || !password) {
+
+    // BLOQUEO ANTI-INYECCIÓN: Rechazar si no son cadenas de texto
+    if (typeof correo !== 'string' || typeof password !== 'string') {
+      return res.status(400).json({ mensaje: 'Formato de datos inválido' });
+    }
+
+    if (!correo.trim() || !password) {
       return res.status(400).json({ mensaje: 'Correo y contraseña son obligatorios' });
     }
 
-    const user = await User.findOne({ correo: correo.toLowerCase().trim() });
+    const user = await User.findOne({ correo: correo.toLowerCase().trim() }).select('+password');
     const ok = user && (await bcrypt.compare(password, user.password));
-    // Mismo mensaje en ambos casos para no revelar qué correos existen.
+    
     if (!ok) {
       return res.status(401).json({ mensaje: 'Correo o contraseña incorrectos' });
     }

@@ -15,25 +15,21 @@ import Registro from './pages/Registro';
 import AvisoPrivacidad from './pages/AvisoPrivacidad';
 import Home from './pages/Home';
 import RutaPrivada from './components/RutaPrivada';
-import Cortina from './components/Cortina';
 
 setupIonicReact();
 
 export default function App() {
   return (
-    <>
-      <IonApp>
-        <IonReactRouter>
-          <IonRouterOutlet>
-            <Route path="/login" element={<Login />} />
-            <Route path="/registro" element={<Registro />} />
-            <Route path="/aviso-privacidad" element={<AvisoPrivacidad />} />
-            <Route path="/home" element={<RutaPrivada><Home /></RutaPrivada>} />
-            <Route path="/" element={<Navigate to="/login" replace />} />
-          </IonRouterOutlet>
-        </IonReactRouter>
-      </IonApp>
-      <Cortina />
-    </>
+    <IonApp>
+      <IonReactRouter>
+        <IonRouterOutlet>
+          <Route path="/login" element={<Login />} />
+          <Route path="/registro" element={<Registro />} />
+          <Route path="/aviso-privacidad" element={<AvisoPrivacidad />} />
+          <Route path="/home" element={<RutaPrivada><Home /></RutaPrivada>} />
+          <Route path="/" element={<Navigate to="/login" replace />} />
+        </IonRouterOutlet>
+      </IonReactRouter>
+    </IonApp>
   );
 }
