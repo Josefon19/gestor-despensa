@@ -1,6 +1,7 @@
 import { Preferences } from '@capacitor/preferences';
 
-export const API_URL: string = import.meta.env.VITE_API_URL ?? 'http://localhost:3000/api';
+//export const API_URL: string = import.meta.env.VITE_API_URL ?? 'http://localhost:3000/api';
+export const API_URL: string = import.meta.env.VITE_API_URL ?? 'http://10.0.2.2:3000/api';
 
 const TOKEN_KEY = 'token';
 
@@ -28,7 +29,8 @@ export async function peticion<T>(
       headers,
       body: cuerpo ? JSON.stringify(cuerpo) : undefined,
     });
-  } catch {
+  } catch (error) {
+    console.error('Error detallado de red:', error);
     throw new Error('No se pudo conectar con el servidor');
   }
 
