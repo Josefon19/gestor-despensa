@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.ionic.starter.app-mergeDebugResources-24:/values-night-v33/values-night-v33.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\8.14.3\\transforms\\6df8af163088aa72424058ed7cbdf85a\\transformed\\core-splashscreen-1.2.0\\res\\values-night-v33\\values-night-v33.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "215"
+                    }
+                }
+            ]
+        }
+    ]
+}
