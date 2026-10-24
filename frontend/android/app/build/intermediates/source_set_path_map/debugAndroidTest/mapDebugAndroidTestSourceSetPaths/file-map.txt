@@ -1,0 +1,5 @@
+io.ionic.starter.test.app-core-1.7.0-0 C:\Users\ortli\.gradle\caches\8.14.3\transforms\ab13b96b6f542fff639abb40db62fb8d\transformed\core-1.7.0\res
+io.ionic.starter.test.app-androidTest-1 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\res\resValues\androidTest\debug
+io.ionic.starter.test.app-mergeDebugAndroidTestResources-2 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+io.ionic.starter.test.app-mergeDebugAndroidTestResources-3 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+io.ionic.starter.test.app-debugAndroidTest-4 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
