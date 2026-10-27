@@ -1,9 +1,13 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'frontend',
-  webDir: 'dist'
+  appName: 'gestor-despensa',
+  webDir: 'dist',
+  server: {
+    androidScheme: 'http',
+    cleartext: true
+  }
 };
 
 export default config;

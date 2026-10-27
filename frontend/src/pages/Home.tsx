@@ -8,15 +8,26 @@ export default function Home() {
   const navigate = useNavigate();
   const [usuario, setUsuario] = useState<Usuario | null>(null);
 
-  useEffect(() => {
+    useEffect(() => {
+    let activo = true;
+
     obtenerPerfil()
-      .then(setUsuario)
+      .then((u) => {
+        if (activo) setUsuario(u);
+      })
       .catch(async () => {
+        if (!activo) return;
         // Token vencido o inválido: se cierra la sesión.
         await cerrarSesion();
         navigate('/login', { replace: true });
       });
-  }, [navigate]);
+
+    return () => {
+      activo = false;
+    };
+    // Solo al abrir la pantalla; si dependiera de navigate, se repetiría al cambiar de ruta.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const salir = async () => {
     await cerrarSesion();

@@ -8,6 +8,7 @@ import '@ionic/react/css/structure.css';
 import '@ionic/react/css/typography.css';
 import '@ionic/react/css/padding.css';
 import './theme/variables.css';
+import './theme/estilos.css';
 
 import Login from './pages/Login';
 import Registro from './pages/Registro';
