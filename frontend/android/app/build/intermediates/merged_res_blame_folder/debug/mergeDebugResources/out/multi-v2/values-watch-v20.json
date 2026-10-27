@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "io.ionic.starter.app-mergeDebugResources-24:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "io.ionic.starter.app-mergeDebugResources-26:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\8.14.3\\transforms\\6df8af163088aa72424058ed7cbdf85a\\transformed\\core-splashscreen-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\b8025db1d5acfa7308452395a3bd8615\\transformed\\core-splashscreen-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\8.14.3\\transforms\\de9a517d681f0d61ca32134e614e4334\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\9c3ef4fcbca5a74666ced45a96feeb66\\transformed\\appcompat-1.8.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

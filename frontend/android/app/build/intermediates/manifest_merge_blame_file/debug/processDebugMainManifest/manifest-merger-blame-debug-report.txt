@@ -5,159 +5,159 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
+7-->INJECTED
 8        android:minSdkVersion="24"
+8-->INJECTED
 9        android:targetSdkVersion="36" />
+9-->INJECTED
 10
-11    <!-- Permissions -->
-12
-13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:41:5-67
-13-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:41:22-64
-14    <uses-permission android:name="android.permission.VIBRATE" />
-14-->[:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-66
-14-->[:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-63
-15
-16    <permission
-16-->[androidx.core:core:1.13.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\bc69ed980656ff6348133b4c44d24dd3\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
-17        android:name="io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.13.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\bc69ed980656ff6348133b4c44d24dd3\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.13.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\bc69ed980656ff6348133b4c44d24dd3\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:14:5-67
+11-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:14:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->[:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-66
+12-->[:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-63
+13
+14    <permission
+14-->[androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b1fe5745e016ad9c0367e591a5e0e4ea\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+15        android:name="io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b1fe5745e016ad9c0367e591a5e0e4ea\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b1fe5745e016ad9c0367e591a5e0e4ea\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b1fe5745e016ad9c0367e591a5e0e4ea\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b1fe5745e016ad9c0367e591a5e0e4ea\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 19
-20    <uses-permission android:name="io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.13.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\bc69ed980656ff6348133b4c44d24dd3\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.13.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\bc69ed980656ff6348133b4c44d24dd3\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-21
-22    <application
-22-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:5-37:19
-23        android:allowBackup="true"
-23-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:5:9-35
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.13.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\bc69ed980656ff6348133b4c44d24dd3\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
-25        android:debuggable="true"
-26        android:extractNativeLibs="false"
-27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:6:9-43
-28        android:label="@string/app_name"
-28-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:7:9-41
-29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:8:9-54
-30        android:supportsRtl="true"
-30-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:9:9-35
-31        android:testOnly="true"
-32        android:theme="@style/AppTheme"
-32-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:9-40
-33        android:usesCleartextTraffic="true" >
-33-->[:capacitor-cordova-android-plugins] C:\Users\ortli\gestor-despensa\frontend\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-53
-34        <activity
-34-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:12:9-26:20
-35            android:name="io.ionic.starter.MainActivity"
-35-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:14:13-41
-36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
-36-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:13:13-148
-37            android:exported="true"
-37-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:18:13-36
-38            android:label="@string/title_activity_main"
-38-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:15:13-56
-39            android:launchMode="singleTask"
-39-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:17:13-44
-40            android:theme="@style/AppTheme.NoActionBarLaunch"
-40-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:16:13-62
-41            android:usesCleartextTraffic="true" >
-41-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:19:13-48
-42            <intent-filter>
-42-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:21:13-24:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:22:17-69
-43-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:22:25-66
+20    <application
+20-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:5-13:19
+21        android:allowBackup="true"
+21-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:18-44
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b1fe5745e016ad9c0367e591a5e0e4ea\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+24-->INJECTED
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:45-79
+26        android:label="@string/app_name"
+26-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:80-112
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:113-158
+28        android:supportsRtl="true"
+28-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:159-185
+29        android:theme="@style/AppTheme"
+29-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:186-217
+30        android:usesCleartextTraffic="true" >
+30-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:218-253
+31        <activity
+31-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:9-9:20
+32            android:name="io.ionic.starter.MainActivity"
+32-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:255-283
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
+33-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:19-154
+34            android:exported="true"
+34-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:155-178
+35            android:label="@string/title_activity_main"
+35-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:179-222
+36            android:launchMode="singleTask"
+36-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:223-254
+37            android:theme="@style/AppTheme.NoActionBarLaunch" >
+37-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:284-333
+38            <intent-filter>
+38-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:5:13-8:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:6:17-69
+39-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:6:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:7:17-77
+41-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:7:27-74
+42            </intent-filter>
+43        </activity>
 44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:23:17-77
-45-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:23:27-74
-46            </intent-filter>
-47        </activity>
-48
-49        <provider
-50            android:name="androidx.core.content.FileProvider"
-50-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:29:13-62
-51            android:authorities="io.ionic.starter.fileprovider"
-51-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:30:13-64
-52            android:exported="false"
-52-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:31:13-37
-53            android:grantUriPermissions="true" >
-53-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:32:13-47
-54            <meta-data
-54-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:33:13-35:64
-55                android:name="android.support.FILE_PROVIDER_PATHS"
-55-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:34:17-67
-56                android:resource="@xml/file_paths" />
-56-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:35:17-51
-57        </provider>
-58        <provider
-58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\8.14.3\transforms\8620edfbc0f8cdd514be09ec0ad708ac\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\8.14.3\transforms\8620edfbc0f8cdd514be09ec0ad708ac\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-60            android:authorities="io.ionic.starter.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\8.14.3\transforms\8620edfbc0f8cdd514be09ec0ad708ac\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\8.14.3\transforms\8620edfbc0f8cdd514be09ec0ad708ac\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\8.14.3\transforms\8620edfbc0f8cdd514be09ec0ad708ac\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\8.14.3\transforms\8620edfbc0f8cdd514be09ec0ad708ac\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\8.14.3\transforms\8620edfbc0f8cdd514be09ec0ad708ac\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\8.14.3\transforms\4cdfe73d536b7b8b04d9760d80204868\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\8.14.3\transforms\4cdfe73d536b7b8b04d9760d80204868\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\8.14.3\transforms\4cdfe73d536b7b8b04d9760d80204868\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-68            <meta-data
-68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-70                android:value="androidx.startup" />
-70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-71        </provider>
-72
-73        <receiver
-73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-75            android:directBootAware="false"
-75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-76            android:enabled="true"
-76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-77            android:exported="true"
-77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-78            android:permission="android.permission.DUMP" >
-78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-79            <intent-filter>
-79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-81            </intent-filter>
-82            <intent-filter>
-82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-84            </intent-filter>
-85            <intent-filter>
-85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-87            </intent-filter>
-88            <intent-filter>
-88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ortli\.gradle\caches\8.14.3\transforms\83130b6d0d84bfd033d030fec58d60e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-90            </intent-filter>
-91        </receiver>
-92    </application>
-93
-94</manifest>
+45        <provider
+45-->INJECTED
+46            android:name="androidx.core.content.FileProvider"
+46-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:131-180
+47            android:authorities="io.ionic.starter.fileprovider"
+47-->INJECTED
+48            android:exported="false"
+48-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:71-95
+49            android:grantUriPermissions="true" >
+49-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:96-130
+50            <meta-data
+50-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:11:13-112
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:11:24-74
+52                android:resource="@xml/file_paths" />
+52-->C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:11:75-109
+53        </provider>
+54        <provider
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\5923f78a5959ad94bdc8ae8763d4b82d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\5923f78a5959ad94bdc8ae8763d4b82d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+56            android:authorities="io.ionic.starter.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\5923f78a5959ad94bdc8ae8763d4b82d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\5923f78a5959ad94bdc8ae8763d4b82d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\5923f78a5959ad94bdc8ae8763d4b82d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\5923f78a5959ad94bdc8ae8763d4b82d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\5923f78a5959ad94bdc8ae8763d4b82d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7a2706bcaeefdb4f62c4412b2a938ba3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7a2706bcaeefdb4f62c4412b2a938ba3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7a2706bcaeefdb4f62c4412b2a938ba3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+65-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+66                android:value="androidx.startup" />
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+67        </provider>
+68
+69        <receiver
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+70            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+71            android:directBootAware="false"
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+72            android:enabled="true"
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+73            android:exported="true"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+74            android:permission="android.permission.DUMP" >
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+76                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+79                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+82                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+85                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a03c1875177bf63557fe1dabe40f5abb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+86            </intent-filter>
+87        </receiver>
+88    </application>
+89
+90</manifest>

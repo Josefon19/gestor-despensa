@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "io.ionic.starter.app-mergeDebugResources-24:/values-v30/values-v30.xml",
+            "outputFile": "io.ionic.starter.app-mergeDebugResources-26:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\8.14.3\\transforms\\6df8af163088aa72424058ed7cbdf85a\\transformed\\core-splashscreen-1.2.0\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\b8025db1d5acfa7308452395a3bd8615\\transformed\\core-splashscreen-1.2.0\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
