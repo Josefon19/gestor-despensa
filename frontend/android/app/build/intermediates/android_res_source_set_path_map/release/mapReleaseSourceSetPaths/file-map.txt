@@ -1,0 +1,9 @@
+io.ionic.starter.app-pngs-0 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\res\pngs\release
+io.ionic.starter.app-resValues-1 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\res\resValues\release
+io.ionic.starter.app-updated_navigation_xml-2 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\updated_navigation_xml\release
+io.ionic.starter.app-packageReleaseResources-3 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+io.ionic.starter.app-packageReleaseResources-4 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+io.ionic.starter.app-release-5 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\merged_res\release\mergeReleaseResources
+io.ionic.starter.app-main-6 C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\res
+io.ionic.starter.app-release-7 C:\Users\ortli\gestor-despensa\frontend\android\app\src\release\res
+gradleHome-0 C:\Users\ortli\.gradle
