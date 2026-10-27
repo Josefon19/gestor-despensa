@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ହୋମକୁ ନେଭିଗେଟ କରନ୍ତୁ"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ଉପରକୁ ନେଭିଗେଟ୍ କରନ୍ତୁ"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ଅଧିକ ବିକଳ୍ପ"</string>
@@ -11,7 +11,7 @@
     <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
     <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
     <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ଡିଲିଟ କରନ୍ତୁ"</string>
-    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"ଏଣ୍ଟର୍"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"ଏଣ୍ଟର"</string>
     <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
     <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
     <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
@@ -25,7 +25,7 @@
     <string msgid="1486535517437947103" name="abc_searchview_description_submit">"କ୍ୱେରୀ ଦାଖଲ କରନ୍ତୁ"</string>
     <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ଭଏସ ସର୍ଚ୍ଚ"</string>
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ଏହାଙ୍କ ସହ ସେୟାର୍‌ କରନ୍ତୁ"</string>
-    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ସହ ସେୟାର୍‍ କରନ୍ତୁ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ସହ ସେୟାର୍‍ କରନ୍ତୁ"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ସଂକୁଚିତ କରନ୍ତୁ"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ଭିଡିଓ"</string>
