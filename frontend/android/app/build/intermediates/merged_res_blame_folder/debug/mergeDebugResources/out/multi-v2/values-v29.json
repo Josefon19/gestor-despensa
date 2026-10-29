@@ -4,7 +4,7 @@
             "outputFile": "io.ionic.starter.app-mergeDebugResources-26:/values-v29/values-v29.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\b8025db1d5acfa7308452395a3bd8615\\transformed\\core-splashscreen-1.2.0\\res\\values-v29\\values-v29.xml",
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\42afa3df755911b823577c6f0970d5b2\\transformed\\core-splashscreen-1.2.0\\res\\values-v29\\values-v29.xml",
                     "from": {
                         "startLines": "2,8",
                         "startColumns": "4,4",

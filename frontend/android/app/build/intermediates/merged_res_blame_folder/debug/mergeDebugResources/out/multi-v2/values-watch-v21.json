@@ -4,7 +4,7 @@
             "outputFile": "io.ionic.starter.app-mergeDebugResources-26:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\9c3ef4fcbca5a74666ced45a96feeb66\\transformed\\appcompat-1.8.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\010152d706d9af0e68534ba222c5421e\\transformed\\appcompat-1.8.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const authRoutes = require('./routes/auth.routes');
+const despensaRoutes = require('./routes/despensa.routes');
 
 const app = express();
 
@@ -12,5 +13,6 @@ app.use(express.json());
 
 app.get('/api/health', (_req, res) => res.json({ ok: true }));
 app.use('/api/auth', authRoutes);
+app.use('/api/despensa', despensaRoutes);
 
 module.exports = app;

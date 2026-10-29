@@ -4,7 +4,7 @@
             "outputFile": "io.ionic.starter.app-mergeDebugResources-26:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\9c3ef4fcbca5a74666ced45a96feeb66\\transformed\\appcompat-1.8.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\010152d706d9af0e68534ba222c5421e\\transformed\\appcompat-1.8.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

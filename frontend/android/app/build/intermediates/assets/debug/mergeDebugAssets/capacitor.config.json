@@ -1,8 +1,10 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "frontend",
+	"appName": "gestor-despensa",
 	"webDir": "dist",
 	"server": {
-		"url": "http://192.168.1.229:8100"
+		"androidScheme": "http",
+		"cleartext": true,
+		"url": "http://10.2.3.208:8100"
 	}
 }

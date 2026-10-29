@@ -12,10 +12,10 @@ export const obtenerToken = async (): Promise<string | null> =>
 
 export async function peticion<T>(
   ruta: string,
-  opciones: { metodo?: 'GET' | 'POST'; cuerpo?: unknown; conToken?: boolean } = {}
+  opciones: { metodo?: 'GET' | 'POST' | 'PUT' | 'DELETE'; cuerpo?: unknown; archivo?: File; conToken?: boolean } = {}
 ): Promise<T> {
-  const { metodo = 'GET', cuerpo, conToken = false } = opciones;
-  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+  const { metodo = 'GET', cuerpo, archivo, conToken = false } = opciones;
+  const headers: Record<string, string> = { 'Content-Type': archivo ? archivo.type : 'application/json' };
 
   if (conToken) {
     const token = await obtenerToken();
@@ -27,7 +27,8 @@ export async function peticion<T>(
     res = await fetch(`${API_URL}${ruta}`, {
       method: metodo,
       headers,
-      body: cuerpo ? JSON.stringify(cuerpo) : undefined,
+      body: archivo ?? (cuerpo ? JSON.stringify(cuerpo) : undefined),
+      signal: AbortSignal.timeout(archivo ? 45000 : 15000),
     });
   } catch (error) {
     console.error('Error detallado de red:', error);

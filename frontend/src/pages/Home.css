@@ -1,0 +1,50 @@
+.modulo-contenido { width: 100%; max-width: 780px; margin: 0 auto; padding: 24px max(18px, var(--ion-safe-area-right)) 32px max(18px, var(--ion-safe-area-left)); box-sizing: border-box; }
+.modulo-intro { margin-bottom: 22px; }
+.sobretitulo { color: #925032; font-size: .72rem; font-weight: 700; letter-spacing: .12em; }
+.modulo-intro h1 { font-size: clamp(1.7rem, 6vw, 2.3rem); line-height: 1.15; margin: 10px 0 12px; }
+.modulo-contenido p { line-height: 1.6; }
+.nota-local { padding: 12px 14px; border-radius: 12px; background: #eee4d0; font-size: .85rem; }
+.estado-vacio { text-align: center; padding: 36px 18px; }
+.estado-vacio h2 { font-size: 1.5rem; }
+.estado-vacio p { max-width: 430px; margin: 12px auto; }
+.estado-vacio__icono { display: inline-flex; justify-content: center; align-items: center; width: 72px; height: 72px; background: #ecdfca; border-radius: 24px; color: #925032; }
+.estado-vacio__icono ion-icon { font-size: 34px; }
+.tarjeta-modulo { padding: 20px; border: 1px solid var(--ion-border-color); border-radius: 18px; background: var(--color-tarjeta); margin: 16px 0; box-shadow: 0 3px 10px #4a2b2206; }
+.tarjeta-modulo h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 1.25rem; margin: 0 0 10px; overflow-wrap: anywhere; }
+.tarjeta-modulo p { margin: 8px 0; }
+.lista-registros { padding: 0; list-style: none; }
+.registro-cabecera { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.registro-cabecera ion-badge { white-space: normal; padding: 6px 9px; }
+.fecha-registro { font-size: .88rem; font-weight: 600; }
+.acciones-registro { display: flex; gap: 10px; margin-top: 14px; }
+.notas-registro, .texto-largo { overflow-wrap: anywhere; white-space: pre-wrap; }
+.resumen-modulo { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; padding: 18px 0 4px; }
+.resumen-modulo strong { font-size: 1.5rem; }
+.resumen-modulo span { margin-left: auto; font-size: .8rem; }
+.ayuda-campo { font-size: .83rem; color: #745c51; }
+.formulario-registro { display: flex; flex-direction: column; gap: 16px; }
+.formulario-registro .ayuda-campo { margin: -8px 0 0; }
+.campos-par { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.error-formulario { color: var(--ion-color-danger); }
+.campo-fecha { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.campo-fecha > span { font-size: .85rem; font-weight: 600; }
+.campo-fecha input { appearance: none; box-sizing: border-box; display: block; width: 100%; min-width: 0; min-height: 56px; padding: 14px; border: 1px solid rgba(74,43,34,.28); border-radius: 12px; font: inherit; line-height: 1.4; color: var(--color-texto); background: var(--color-tarjeta); color-scheme: light; }
+.campo-fecha input::-webkit-date-and-time-value { text-align: left; }
+.campo-fecha input:focus-visible { outline: 2px solid var(--ion-color-primary); outline-offset: 2px; }
+.campo-foto { padding: 16px; border: 1px dashed rgba(74,43,34,.3); border-radius: 14px; }
+.campo-foto h2 { margin: 0 0 12px; font-size: 1rem; }
+.selector-foto { position: relative; display: flex; flex-direction: column; gap: 10px; font-size: .9rem; cursor: pointer; }
+.entrada-foto { position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden; }
+.boton-foto { align-self: flex-start; padding: 12px 16px; border: 1px solid var(--ion-color-primary); border-radius: 10px; color: #874027; background: var(--color-tarjeta); font-weight: 600; }
+.selector-foto:focus-within .boton-foto { outline: 2px solid var(--ion-color-primary); outline-offset: 2px; }
+.nombre-foto { overflow-wrap: anywhere; }
+.campo-foto .ayuda-campo { margin: 12px 0 0; }
+.vista-foto { display: block; width: 100%; max-height: 240px; object-fit: contain; border-radius: 12px; margin-top: 16px; }
+.foto-registro { display: block; width: 100%; height: 170px; object-fit: cover; border-radius: 12px; margin-bottom: 16px; }
+.alerta-vencido { border-left: 4px solid var(--ion-color-danger); }
+.alerta-pronto { border-left: 4px solid var(--ion-color-warning); }
+.despensa-tabs { --background: var(--color-tarjeta); --border: 1px solid var(--ion-border-color); padding-top: 6px; }
+.despensa-tabs ion-tab-button { --color: #745c51; --color-selected: #a74b2c; --padding-start: 2px; --padding-end: 2px; min-height: 56px; min-width: 0; }
+.despensa-tabs ion-label { font-size: clamp(.58rem, 2.35vw, .8rem); margin-inline: 0; }
+.despensa-tabs ion-icon { font-size: 22px; }
+@media (min-width: 768px) { .modulo-contenido { padding-top: 36px; } .tarjeta-modulo { padding: 24px; } }

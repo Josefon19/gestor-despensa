@@ -4,17 +4,7 @@
             "outputFile": "io.ionic.starter.app-mergeDebugResources-26:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\b8025db1d5acfa7308452395a3bd8615\\transformed\\core-splashscreen-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,129,205,280,357,428,496,566",
-                        "endColumns": "73,75,74,76,70,67,69,67",
-                        "endOffsets": "124,200,275,352,423,491,561,629"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\9c3ef4fcbca5a74666ced45a96feeb66\\transformed\\appcompat-1.8.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\010152d706d9af0e68534ba222c5421e\\transformed\\appcompat-1.8.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "12,15,18",
                         "endColumns": "12,12,12",
                         "endOffsets": "788,959,1132"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ortli\\.gradle\\caches\\9.6.0\\transforms\\42afa3df755911b823577c6f0970d5b2\\transformed\\core-splashscreen-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,205,280,357,428,496,566",
+                        "endColumns": "73,75,74,76,70,67,69,67",
+                        "endOffsets": "124,200,275,352,423,491,561,629"
                     }
                 }
             ]

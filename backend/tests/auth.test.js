@@ -5,7 +5,11 @@ jest.mock('../src/models/User', () => {
   const usuarios = [];
   return {
     __usuarios: usuarios,
-    findOne: jest.fn(async ({ correo }) => usuarios.find((u) => u.correo === correo) || null),
+    findOne: jest.fn(({ correo }) => {
+      const obtener = async () => usuarios.find((u) => u.correo === correo) || null;
+      // Las consultas de Mongoose son esperables y permiten select('+password').
+      return { select: jest.fn(obtener), then: (resolver, rechazar) => obtener().then(resolver, rechazar) };
+    }),
     findById: jest.fn(async (id) => usuarios.find((u) => u._id === id) || null),
     create: jest.fn(async (datos) => {
       const user = { _id: String(usuarios.length + 1), ...datos, correo: datos.correo.toLowerCase().trim() };

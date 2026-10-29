@@ -1,53 +1,28 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { IonButton, IonButtons, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonSpinner } from '@ionic/react';
 import { cerrarSesion, obtenerPerfil, type Usuario } from '../services/auth';
+import PaginaModulo from '../components/PaginaModulo';
+import ModulosDespensa from '../modules/despensa/ModulosDespensa';
+import './Home.css';
 
-// Pantalla provisional: aquí se montarán después las pestañas (Inventario, Recetas, Configuración).
 export default function Home() {
   const navigate = useNavigate();
   const [usuario, setUsuario] = useState<Usuario | null>(null);
-
-    useEffect(() => {
+  const [error, setError] = useState(false);
+  const [intento, setIntento] = useState(0);
+  useEffect(() => {
     let activo = true;
-
-    obtenerPerfil()
-      .then((u) => {
-        if (activo) setUsuario(u);
-      })
-      .catch(async () => {
-        if (!activo) return;
-        // Token vencido o inválido: se cierra la sesión.
-        await cerrarSesion();
-        navigate('/login', { replace: true });
-      });
-
-    return () => {
-      activo = false;
-    };
-    // Solo al abrir la pantalla; si dependiera de navigate, se repetiría al cambiar de ruta.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
+    obtenerPerfil().then((perfil) => { if (activo) setUsuario(perfil); })
+      .catch(() => { if (activo) setError(true); });
+    return () => { activo = false; };
+  }, [intento]);
   const salir = async () => {
     await cerrarSesion();
     navigate('/login', { replace: true });
   };
-
-  return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Mi despensa</IonTitle>
-          <IonButtons slot="end">
-            <IonButton onClick={salir}>Salir</IonButton>
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent className="ion-padding">
-        <h2>Hola, {usuario?.nombre ?? '…'}</h2>
-        <p>Sesión iniciada. Aquí irá el inventario.</p>
-      </IonContent>
-    </IonPage>
-  );
+  if (!usuario) return <PaginaModulo titulo="Mi despensa">
+    {error ? <section className="estado-vacio"><h1 className="titulo-serif">No pudimos cargar tu cuenta</h1><p>Revisa tu conexión o vuelve a iniciar sesión.</p><IonButton onClick={() => { setError(false); setIntento((v) => v + 1); }}>Reintentar</IonButton><IonButton fill="clear" onClick={salir}>Volver al inicio de sesión</IonButton></section> : <div className="estado-vacio" role="status"><IonSpinner /><p>Cargando tu despensa…</p></div>}
+  </PaginaModulo>;
+  return <ModulosDespensa key={usuario.id} usuario={usuario} salir={salir} />;
 }

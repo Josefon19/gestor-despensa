@@ -26,7 +26,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/registro" element={<Registro />} />
           <Route path="/aviso-privacidad" element={<AvisoPrivacidad />} />
-          <Route path="/home" element={<RutaPrivada><Home /></RutaPrivada>} />
+          <Route path="/home/*" element={<RutaPrivada><Home /></RutaPrivada>} />
           <Route path="/" element={<Navigate to="/login" replace />} />
         </IonRouterOutlet>
       </IonReactRouter>
