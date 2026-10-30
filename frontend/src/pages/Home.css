@@ -13,6 +13,10 @@
 .tarjeta-modulo h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 1.25rem; margin: 0 0 10px; overflow-wrap: anywhere; }
 .tarjeta-modulo p { margin: 8px 0; }
 .lista-registros { padding: 0; list-style: none; }
+.edamam-atribucion { display: flex; justify-content: center; }
+.edamam-atribucion img { max-width: 100%; object-fit: contain; }
+.campo-busqueda { display: flex; flex-direction: column; gap: 8px; }
+.campo-busqueda input, .campo-busqueda select { width: 100%; min-height: 52px; padding: 12px; border: 1px solid var(--ion-border-color); border-radius: 12px; font: inherit; color: inherit; background: var(--color-tarjeta); }
 .registro-cabecera { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
 .registro-cabecera ion-badge { white-space: normal; padding: 6px 9px; }
 .fecha-registro { font-size: .88rem; font-weight: 600; }

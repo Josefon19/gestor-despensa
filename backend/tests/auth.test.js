@@ -12,7 +12,7 @@ jest.mock('../src/models/User', () => {
     }),
     findById: jest.fn(async (id) => usuarios.find((u) => u._id === id) || null),
     create: jest.fn(async (datos) => {
-      const user = { _id: String(usuarios.length + 1), ...datos, correo: datos.correo.toLowerCase().trim() };
+      const user = { _id: String(usuarios.length + 1).padStart(24, '0'), ...datos, correo: datos.correo.toLowerCase().trim() };
       usuarios.push(user);
       return user;
     }),

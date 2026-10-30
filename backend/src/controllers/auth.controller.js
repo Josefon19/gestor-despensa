@@ -2,6 +2,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 const { AVISO_VERSION } = require('../config/aviso');
+const { correoValido, passwordValido } = require('../validation/auth');
+const HASH_FICTICIO = '$2b$10$5SymPhlHG.BZ.Z4hXAv4LO.1GjhXOLhyLNsk2/Zvm.au4tLa7mnxu';
 
 const firmarToken = (user) =>
   jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
@@ -18,7 +20,7 @@ const datosPublicos = (user) => ({
 // POST /api/auth/register
 exports.register = async (req, res) => {
   try {
-    const { nombre, correo, password, aceptaAviso } = req.body;
+    const { nombre, correo, password, aceptaAviso } = req.body || {};
     
     if (typeof nombre !== 'string' || typeof correo !== 'string' || typeof password !== 'string') {
       return res.status(400).json({ mensaje: 'Formato de datos inválido' });
@@ -29,6 +31,9 @@ exports.register = async (req, res) => {
     }
     if (password.length < 8) {
       return res.status(400).json({ mensaje: 'La contraseña debe tener al menos 8 caracteres' });
+    }
+    if (!correoValido(correo) || !passwordValido(password) || nombre.trim().length < 2 || nombre.trim().length > 80 || /[\u0000-\u001f\u007f]/.test(nombre)) {
+      return res.status(400).json({ mensaje: 'Nombre o correo inválidos, o contraseña superior a 72 bytes' });
     }
     // Sin consentimiento expreso no se crea la cuenta.
     if (aceptaAviso !== true) {
@@ -42,8 +47,8 @@ exports.register = async (req, res) => {
 
     const hash = await bcrypt.hash(password, 10);
     const user = await User.create({
-      nombre,
-      correo,
+      nombre: nombre.trim(),
+      correo: correo.toLowerCase().trim(),
       password: hash,
       consentimiento: { aceptado: true, fecha: new Date(), versionAviso: AVISO_VERSION },
     });
@@ -56,7 +61,7 @@ exports.register = async (req, res) => {
     if (err.name === 'ValidationError') {
       return res.status(400).json({ mensaje: 'Datos inválidos' });
     }
-    console.error(err);
+    console.error('No se pudo registrar la cuenta');
     return res.status(500).json({ mensaje: 'Error del servidor' });
   }
 };
@@ -64,7 +69,7 @@ exports.register = async (req, res) => {
 // POST /api/auth/login
 exports.login = async (req, res) => {
   try {
-    const { correo, password } = req.body;
+    const { correo, password } = req.body || {};
 
     // BLOQUEO ANTI-INYECCIÓN: Rechazar si no son cadenas de texto
     if (typeof correo !== 'string' || typeof password !== 'string') {
@@ -74,17 +79,18 @@ exports.login = async (req, res) => {
     if (!correo.trim() || !password) {
       return res.status(400).json({ mensaje: 'Correo y contraseña son obligatorios' });
     }
+    if (!correoValido(correo) || !passwordValido(password)) return res.status(400).json({ mensaje: 'Correo o contraseña con formato inválido' });
 
     const user = await User.findOne({ correo: correo.toLowerCase().trim() }).select('+password');
-    const ok = user && (await bcrypt.compare(password, user.password));
+    const ok = await bcrypt.compare(password, user?.password || HASH_FICTICIO);
     
-    if (!ok) {
+    if (!user?.password || !ok) {
       return res.status(401).json({ mensaje: 'Correo o contraseña incorrectos' });
     }
 
     return res.json({ token: firmarToken(user), usuario: datosPublicos(user) });
   } catch (err) {
-    console.error(err);
+    console.error('No se pudo verificar el acceso');
     return res.status(500).json({ mensaje: 'Error del servidor' });
   }
 };

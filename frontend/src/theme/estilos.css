@@ -89,6 +89,8 @@
 }
 
 /* ---------- Campos y botones ---------- */
+.separador-acceso { display: flex; align-items: center; gap: 12px; margin: 18px 0 12px; color: #745c51; font-size: .85rem; }
+.separador-acceso::before, .separador-acceso::after { content: ''; height: 1px; background: var(--ion-border-color); flex: 1; }
 /* Selectores más específicos a propósito: si no, Ionic ignora estos ajustes en los campos */
 :root ion-input.input-fill-outline {
   --border-radius: 12px;

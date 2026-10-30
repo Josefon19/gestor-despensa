@@ -1,9 +1,10 @@
 io.ionic.starter.app-pngs-0 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\res\pngs\debug
-io.ionic.starter.app-resValues-1 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\res\resValues\debug
-io.ionic.starter.app-updated_navigation_xml-2 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\updated_navigation_xml\debug
-io.ionic.starter.app-packageDebugResources-3 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-io.ionic.starter.app-packageDebugResources-4 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-io.ionic.starter.app-debug-5 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\merged_res\debug\mergeDebugResources
-io.ionic.starter.app-debug-6 C:\Users\ortli\gestor-despensa\frontend\android\app\src\debug\res
-io.ionic.starter.app-main-7 C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\res
+io.ionic.starter.app-res-1 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\res\processDebugGoogleServices
+io.ionic.starter.app-resValues-2 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\res\resValues\debug
+io.ionic.starter.app-updated_navigation_xml-3 C:\Users\ortli\gestor-despensa\frontend\android\app\build\generated\updated_navigation_xml\debug
+io.ionic.starter.app-packageDebugResources-4 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+io.ionic.starter.app-packageDebugResources-5 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+io.ionic.starter.app-debug-6 C:\Users\ortli\gestor-despensa\frontend\android\app\build\intermediates\merged_res\debug\mergeDebugResources
+io.ionic.starter.app-debug-7 C:\Users\ortli\gestor-despensa\frontend\android\app\src\debug\res
+io.ionic.starter.app-main-8 C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\res
 gradleHome-0 C:\Users\ortli\.gradle

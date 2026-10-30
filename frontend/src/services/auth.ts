@@ -1,4 +1,6 @@
 import { peticion, guardarToken, borrarToken, obtenerToken } from './api';
+import { cerrarGoogle } from './google';
+import { desactivarPush } from './notificaciones';
 
 export interface Usuario {
   id: string;
@@ -36,5 +38,9 @@ export async function obtenerPerfil(): Promise<Usuario> {
   return res.usuario;
 }
 
-export const cerrarSesion = () => borrarToken();
+export const cerrarSesion = async () => {
+  await desactivarPush();
+  await borrarToken();
+  await cerrarGoogle();
+};
 export const haySesion = async () => (await obtenerToken()) !== null;

@@ -10,6 +10,10 @@ export const borrarToken = () => Preferences.remove({ key: TOKEN_KEY });
 export const obtenerToken = async (): Promise<string | null> =>
   (await Preferences.get({ key: TOKEN_KEY })).value;
 
+export class ErrorAPI extends Error {
+  constructor(message: string, public estado: number, public codigo?: string) { super(message); this.name = 'ErrorAPI'; }
+}
+
 export async function peticion<T>(
   ruta: string,
   opciones: { metodo?: 'GET' | 'POST' | 'PUT' | 'DELETE'; cuerpo?: unknown; archivo?: File; conToken?: boolean } = {}
@@ -36,6 +40,6 @@ export async function peticion<T>(
   }
 
   const datos = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(datos.mensaje ?? 'Ocurrió un error');
+  if (!res.ok) throw new ErrorAPI(datos.mensaje ?? 'Ocurrió un error', res.status, datos.codigo);
   return datos as T;
 }

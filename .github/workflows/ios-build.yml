@@ -23,15 +23,11 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Construir proyecto web React
-        run: npx @ionic/cli build
+      - name: Construir proyecto web React (Vite)
+        run: npm run build
 
-      - name: Generar iOS desde cero en Mac
-        run: |
-          rm -rf ios
-          npm install @capacitor/ios
-          npx cap add ios
-          npx cap sync ios
+      - name: Sincronizar Capacitor con iOS
+        run: npx cap sync ios
 
       - name: Compilar App nativa (Sin firma de Apple)
         run: |

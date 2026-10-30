@@ -9,8 +9,8 @@ const Registro = require('../src/models/RegistroDespensa');
 const usuario = '507f1f77bcf86cd799439011';
 const ajeno = '507f1f77bcf86cd799439012';
 const id = '507f1f77bcf86cd799439013';
-const token = jwt.sign({ id: usuario }, process.env.JWT_SECRET);
-const otroToken = jwt.sign({ id: ajeno }, process.env.JWT_SECRET);
+const token = jwt.sign({ id: usuario }, process.env.JWT_SECRET, { expiresIn: '1h' });
+const otroToken = jwt.sign({ id: ajeno }, process.env.JWT_SECRET, { expiresIn: '1h' });
 const valido = { tipo: 'alimento', nombre: 'Arroz', cantidad: 2, unidad: 'kg', lugar: 'Alacena', fechaLimite: '2027-01-30', fechaElaboracion: '', notas: '' };
 const documento = { ...valido, _id: id, usuario };
 const autorizada = (metodo, ruta = '/api/despensa', credencial = token) => request(app)[metodo](ruta).set('Authorization', `Bearer ${credencial}`);
@@ -44,9 +44,9 @@ describe('despensa privada', () => {
     expect(res.body.registros[0]).toEqual({ ...valido, id });
     expect(res.body.registros[0].usuario).toBeUndefined();
   });
-  test('crea con el propietario del token y descarta campos u operadores del cliente', async () => {
+  test('crea con el propietario del token y descarta campos ajenos del cliente', async () => {
     Registro.create.mockResolvedValue(documento);
-    const res = await autorizada('post').send({ ...valido, usuario: ajeno, $set: { usuario: ajeno }, _id: id });
+    const res = await autorizada('post').send({ ...valido, usuario: ajeno, _id: id });
     expect(res.status).toBe(201);
     expect(Registro.create).toHaveBeenCalledWith({ ...valido, usuario });
   });

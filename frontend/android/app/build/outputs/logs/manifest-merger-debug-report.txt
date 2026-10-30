@@ -1,23 +1,26 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:9-12:20
+INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:26:9-28:20
 	android:grantUriPermissions
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:96-130
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:26:96-130
 	android:authorities
 		INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:19-70
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:26:19-70
 	android:exported
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:71-95
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:26:71-95
 	android:name
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:131-180
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:26:131-180
 manifest
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-15:12
-INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-15:12
-INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-15:12
-INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-15:12
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-17:12
+MERGED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-19:12
 MERGED from [:capacitor-app] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\app\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-9:12
 MERGED from [:capacitor-keyboard] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\keyboard\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-37:12
 MERGED from [:capacitor-preferences] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\preferences\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-status-bar] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-android] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
@@ -27,9 +30,22 @@ MERGED from [androidx.core:core-splashscreen:1.2.0] C:\Users\ortli\.gradle\cache
 MERGED from [androidx.appcompat:appcompat-resources:1.8.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3f2d96c73976fef54b7496b9be760303\transformed\appcompat-resources-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.8.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\010152d706d9af0e68534ba222c5421e\transformed\appcompat-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8b6beb44351f632bcd99942efed5e742\transformed\coordinatorlayout-1.3.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\2d0be0865f9502c193ef524d74a47db9\transformed\fragment-1.8.9\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.11.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0753843f6aabab7ca5d18d273913279b\transformed\activity-1.11.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\357bd9c64a516dcf2ebcb06331c81bb6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e2cced77aa79a0afe763eced6976e730\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\135bf19052ffb6fa9f44e38f4b7018de\transformed\credentials-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\56a2a8cb17a4407066652f66123baa55\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\46a4699ead493dfcf8e2af9d64259e31\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\400a737ebbc8f899b2d1c337fae8c697\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c293b79c9f069f6cf44ee5abb837b438\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\da0973ce301cb7f472b1793fb9d71e5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\87b751e5805b42ff20edf7e7c98bfd59\transformed\play-services-fido-21.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7626c0b3b42026ab45ffa1b63e4052b1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a443654542809ceea0fc22053c4f1954\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9c1a38efb2b56c287d5a304d238dc50b\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
@@ -39,23 +55,48 @@ MERGED from [androidx.webkit:webkit:1.14.0] C:\Users\ortli\.gradle\caches\9.6.0\
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d5b93775f42cce44a7a2d006ddf16c9f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\aeec8faf22623c03fec729da21f65bc2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\cc3b830d834bf5387ac5abb9e41560a2\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7e818475e35dde6e4b5690dee2044a91\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8d51062c6ff78be5e842369a85a2c260\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\252d6f78c4a9295c2bf5b25fea79aaaf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\13245fb92d7ae9d219a6e5f5b3dada36\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3420cd7b53676e1fa49f01e9fc3f24d7\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e99f9984d90e2a1b9f2942c956986343\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\64d20a9635c88af8fd5c5ad8ed552058\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\093e5717d6a0e70da7617add364e23a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\765b090a80d75b36cf865c7e604b0511\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9937f35b29edbde7d66aaf5846a5c700\transformed\core-ktx-1.17.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3079472b583a00cf971c4a446808f976\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\ortli\.gradle\caches\9.6.0\transforms\07b04649fd9271398e1fb52427f97bb2\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
 MERGED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\093e5717d6a0e70da7617add364e23a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\6e6b6c5af94fba1e9c0f6bde992f432f\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\83f73c9cdb49aaa09e3804f386aad491\transformed\datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b7e6802197e5786b5f92c1de731d5510\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a0093359e3221e4f057bd8e0b59bdea3\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d78c3a8ac98c4dc8e9c9a8fb809ad409\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8762ef06631c24aef47665002f93d9b5\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c07e803173400d2aa80b899df34e29a9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\2d0be0865f9502c193ef524d74a47db9\transformed\fragment-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0753843f6aabab7ca5d18d273913279b\transformed\activity-1.11.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\357bd9c64a516dcf2ebcb06331c81bb6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d75e46972f27560a353559b618c9c543\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7d31849ca035de806047551dc086e7fe\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\522c62fc13ebe33c7d879d910ec761f4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\07531688c06902a18d39406cd0c5d6f3\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\ccd9534e47b39e4681606bfc30a8e2b7\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c0781078cb6466ac92b6bf3201e37cd7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f54f312a656a1b405513d554728f0398\transformed\firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3f495f97773fea6935b12747b09f75c8\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\646c8e6231368eeb22adc090ca5fa937\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a15a0aac803e3bba035c9646a3d34982\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e794fb23a50f32c9545ab2cccbe4db0a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a9637817e3cbfef9544512c16e4cc6e2\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e797239be9f8d4a415abde5900579c26\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
 	package
 		INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -65,86 +106,146 @@ MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\ortli\.gradle\caches\9.
 	xmlns:android
 		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:5-13:19
-INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:5-13:19
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:5-29:19
+INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:5-29:19
+MERGED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:5-17:19
+MERGED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:5-17:19
+MERGED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:5-35:19
+MERGED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:5-35:19
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\ortli\gestor-despensa\frontend\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-9:19
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\ortli\gestor-despensa\frontend\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-9:19
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:28:5-64:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\46a4699ead493dfcf8e2af9d64259e31\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\46a4699ead493dfcf8e2af9d64259e31\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\400a737ebbc8f899b2d1c337fae8c697\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\400a737ebbc8f899b2d1c337fae8c697\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c293b79c9f069f6cf44ee5abb837b438\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c293b79c9f069f6cf44ee5abb837b438\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\da0973ce301cb7f472b1793fb9d71e5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\da0973ce301cb7f472b1793fb9d71e5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\87b751e5805b42ff20edf7e7c98bfd59\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\87b751e5805b42ff20edf7e7c98bfd59\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9c1a38efb2b56c287d5a304d238dc50b\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9c1a38efb2b56c287d5a304d238dc50b\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\252d6f78c4a9295c2bf5b25fea79aaaf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\252d6f78c4a9295c2bf5b25fea79aaaf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
 MERGED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8762ef06631c24aef47665002f93d9b5\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8762ef06631c24aef47665002f93d9b5\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c07e803173400d2aa80b899df34e29a9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c07e803173400d2aa80b899df34e29a9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d75e46972f27560a353559b618c9c543\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d75e46972f27560a353559b618c9c543\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\522c62fc13ebe33c7d879d910ec761f4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\522c62fc13ebe33c7d879d910ec761f4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
 		INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:159-185
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:80-112
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:7:9-41
 	android:roundIcon
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:113-158
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:8:9-54
 	android:icon
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:45-79
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:6:9-43
 	android:allowBackup
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:18-44
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:186-217
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:10:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:3:218-253
+		ADDED from [:capacitor-cordova-android-plugins] C:\Users\ortli\gestor-despensa\frontend\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-53
 activity#io.ionic.starter.MainActivity
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:9-9:20
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:12:9-25:20
 	android:label
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:179-222
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:15:13-56
 	android:launchMode
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:223-254
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:17:13-44
 	android:exported
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:155-178
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:18:13-36
 	android:configChanges
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:19-154
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:13:13-148
 	android:theme
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:284-333
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:16:13-62
 	android:usesCleartextTraffic
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:334-369
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:19:13-48
 	android:name
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:4:255-283
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:14:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:5:13-8:29
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:6:17-69
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:6:25-66
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:7:17-77
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:7:27-74
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:23:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:14:5-67
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:30:5-67
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:30:22-64
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:11:13-112
+ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:27:13-112
 	android:resource
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:11:75-109
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:27:75-109
 	android:name
-		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:11:24-74
+		ADDED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml:27:24-74
 uses-sdk
 INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml
+MERGED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-app] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\app\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-app] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\app\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-keyboard] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\keyboard\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-keyboard] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\keyboard\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-preferences] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\preferences\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-preferences] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\preferences\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-status-bar] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
@@ -163,12 +264,38 @@ MERGED from [androidx.appcompat:appcompat:1.8.0] C:\Users\ortli\.gradle\caches\9
 MERGED from [androidx.appcompat:appcompat:1.8.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\010152d706d9af0e68534ba222c5421e\transformed\appcompat-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8b6beb44351f632bcd99942efed5e742\transformed\coordinatorlayout-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8b6beb44351f632bcd99942efed5e742\transformed\coordinatorlayout-1.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\2d0be0865f9502c193ef524d74a47db9\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\2d0be0865f9502c193ef524d74a47db9\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.11.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0753843f6aabab7ca5d18d273913279b\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.11.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0753843f6aabab7ca5d18d273913279b\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\357bd9c64a516dcf2ebcb06331c81bb6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\357bd9c64a516dcf2ebcb06331c81bb6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e2cced77aa79a0afe763eced6976e730\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e2cced77aa79a0afe763eced6976e730\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\135bf19052ffb6fa9f44e38f4b7018de\transformed\credentials-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\135bf19052ffb6fa9f44e38f4b7018de\transformed\credentials-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\56a2a8cb17a4407066652f66123baa55\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\56a2a8cb17a4407066652f66123baa55\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\46a4699ead493dfcf8e2af9d64259e31\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\46a4699ead493dfcf8e2af9d64259e31\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\400a737ebbc8f899b2d1c337fae8c697\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\400a737ebbc8f899b2d1c337fae8c697\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c293b79c9f069f6cf44ee5abb837b438\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c293b79c9f069f6cf44ee5abb837b438\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\da0973ce301cb7f472b1793fb9d71e5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\da0973ce301cb7f472b1793fb9d71e5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\87b751e5805b42ff20edf7e7c98bfd59\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\87b751e5805b42ff20edf7e7c98bfd59\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7626c0b3b42026ab45ffa1b63e4052b1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7626c0b3b42026ab45ffa1b63e4052b1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a443654542809ceea0fc22053c4f1954\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
@@ -187,24 +314,54 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ortli\.gradl
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\aeec8faf22623c03fec729da21f65bc2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\cc3b830d834bf5387ac5abb9e41560a2\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\cc3b830d834bf5387ac5abb9e41560a2\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7e818475e35dde6e4b5690dee2044a91\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\7e818475e35dde6e4b5690dee2044a91\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8d51062c6ff78be5e842369a85a2c260\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8d51062c6ff78be5e842369a85a2c260\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\252d6f78c4a9295c2bf5b25fea79aaaf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\252d6f78c4a9295c2bf5b25fea79aaaf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\13245fb92d7ae9d219a6e5f5b3dada36\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\13245fb92d7ae9d219a6e5f5b3dada36\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3420cd7b53676e1fa49f01e9fc3f24d7\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3420cd7b53676e1fa49f01e9fc3f24d7\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e99f9984d90e2a1b9f2942c956986343\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e99f9984d90e2a1b9f2942c956986343\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\64d20a9635c88af8fd5c5ad8ed552058\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\64d20a9635c88af8fd5c5ad8ed552058\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\093e5717d6a0e70da7617add364e23a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\093e5717d6a0e70da7617add364e23a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\765b090a80d75b36cf865c7e604b0511\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\765b090a80d75b36cf865c7e604b0511\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9937f35b29edbde7d66aaf5846a5c700\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9937f35b29edbde7d66aaf5846a5c700\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3079472b583a00cf971c4a446808f976\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3079472b583a00cf971c4a446808f976\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\ortli\.gradle\caches\9.6.0\transforms\07b04649fd9271398e1fb52427f97bb2\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\ortli\.gradle\caches\9.6.0\transforms\07b04649fd9271398e1fb52427f97bb2\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\093e5717d6a0e70da7617add364e23a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\093e5717d6a0e70da7617add364e23a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\6e6b6c5af94fba1e9c0f6bde992f432f\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\6e6b6c5af94fba1e9c0f6bde992f432f\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\83f73c9cdb49aaa09e3804f386aad491\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\83f73c9cdb49aaa09e3804f386aad491\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b7e6802197e5786b5f92c1de731d5510\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\b7e6802197e5786b5f92c1de731d5510\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a0093359e3221e4f057bd8e0b59bdea3\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a0093359e3221e4f057bd8e0b59bdea3\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d78c3a8ac98c4dc8e9c9a8fb809ad409\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d78c3a8ac98c4dc8e9c9a8fb809ad409\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8762ef06631c24aef47665002f93d9b5\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\8762ef06631c24aef47665002f93d9b5\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c07e803173400d2aa80b899df34e29a9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c07e803173400d2aa80b899df34e29a9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\2d0be0865f9502c193ef524d74a47db9\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\2d0be0865f9502c193ef524d74a47db9\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0753843f6aabab7ca5d18d273913279b\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0753843f6aabab7ca5d18d273913279b\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\357bd9c64a516dcf2ebcb06331c81bb6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\357bd9c64a516dcf2ebcb06331c81bb6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\d75e46972f27560a353559b618c9c543\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -217,18 +374,334 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ortli\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\07531688c06902a18d39406cd0c5d6f3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\ccd9534e47b39e4681606bfc30a8e2b7\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\ccd9534e47b39e4681606bfc30a8e2b7\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c0781078cb6466ac92b6bf3201e37cd7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c0781078cb6466ac92b6bf3201e37cd7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f54f312a656a1b405513d554728f0398\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f54f312a656a1b405513d554728f0398\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3f495f97773fea6935b12747b09f75c8\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3f495f97773fea6935b12747b09f75c8\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\646c8e6231368eeb22adc090ca5fa937\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\646c8e6231368eeb22adc090ca5fa937\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a15a0aac803e3bba035c9646a3d34982\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a15a0aac803e3bba035c9646a3d34982\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e794fb23a50f32c9545ab2cccbe4db0a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e794fb23a50f32c9545ab2cccbe4db0a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a9637817e3cbfef9544512c16e4cc6e2\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a9637817e3cbfef9544512c16e4cc6e2\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e797239be9f8d4a415abde5900579c26\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\e797239be9f8d4a415abde5900579c26\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
 		INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\ortli\gestor-despensa\frontend\android\app\src\main\AndroidManifest.xml
+queries
+ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-15:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-14:18
+action#android.intent.action.VIEW
+ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-65
+	android:name
+		ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
+	android:name
+		ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:23-71
+data
+ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-44
+	android:scheme
+		ADDED from [:capacitor-firebase-authentication] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\authentication\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:19-41
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-77
+MERGED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:5-77
+MERGED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:5-77
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-74
+service#io.capawesome.capacitorjs.plugins.firebase.messaging.MessagingService
+ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:9-16:19
+	android:exported
+		ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-15:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:17-78
+	android:name
+		ADDED from [:capacitor-firebase-messaging] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:25-75
 uses-permission#android.permission.VIBRATE
 ADDED from [:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-66
 	android:name
 		ADDED from [:capacitor-haptics] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:22-76
+receiver#com.capacitorjs.plugins.localnotifications.TimedNotificationPublisher
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:9-106
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:19-103
+receiver#com.capacitorjs.plugins.localnotifications.NotificationDismissReceiver
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:9-107
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:19-104
+receiver#com.capacitorjs.plugins.localnotifications.LocalNotificationRestoreReceiver
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:9-24:20
+	android:exported
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-37
+	android:directBootAware
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:13-103
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:17-86
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:25-83
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:17-79
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:25-79
+provider#com.capacitorjs.plugins.localnotifications.LocalNotificationsAssetProvider
+ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:26:9-34:20
+	android:grantUriPermissions
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:13-47
+	android:authorities
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-83
+	android:exported
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [:capacitor-local-notifications] C:\Users\ortli\gestor-despensa\frontend\node_modules\@capacitor\local-notifications\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:13-102
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:35:13-45:29
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:27-73
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0b053d61d0934d83dc3278a70635d8ef\transformed\firebase-auth-24.0.1\AndroidManifest.xml:70:17-109
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3a5aa3796c032658b8b43b1258ea0b97\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:25.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\a4cca885a97a74e585d8dba4a23ef56d\transformed\firebase-messaging-25.0.1\AndroidManifest.xml:61:17-119
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\1d4958bd0b1271591c93852783d92577\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3c365252232c7f635874faa87938d935\transformed\play-services-auth-21.1.1\AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4a1e7ae6cd538cc828c5f2870cd158ee\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\93ac0a6a921ce52e0de8dc58828e1ba5\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\ortli\.gradle\caches\9.6.0\transforms\0614fddefc6acb1663269107927d1116\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9c1a38efb2b56c287d5a304d238dc50b\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
@@ -257,6 +730,14 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\c
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25eeff80b8b9f68bc1fb6d023ab9feae\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\f4088e7657a6f81f11dd395dd3bb9897\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -277,6 +758,12 @@ uses-permission#io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c32e3a9cd17431f5cfa56d89c4ae679e\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\25d229a1767c7c5c2048939cd89334cb\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 	android:value
@@ -319,3 +806,47 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\c1a02098c2ca86f98bae1757b295d6ef\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4f55beb627cc5f81e77d77ef69d7bddb\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\9a6c8d7d5f552e1da03bf54d403f661f\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ortli\.gradle\caches\9.6.0\transforms\4560806455ba1ae1448b5a367a6711a5\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\ortli\.gradle\caches\9.6.0\transforms\3fb095b6b3b25493fb2aa1c45273446d\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93

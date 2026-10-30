@@ -3,6 +3,7 @@ import { IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs } 
 import { bookOutline, cubeOutline, notificationsOutline, restaurantOutline, settingsOutline } from 'ionicons/icons';
 import type { Usuario } from '../../services/auth';
 import DespensaProvider from './DespensaProvider';
+import NotificacionesProvider from './NotificacionesProvider';
 import Inventario from '../../pages/modulos/Inventario';
 import Recetas from '../../pages/modulos/Recetas';
 import Guias from '../../pages/modulos/Guias';
@@ -12,7 +13,7 @@ import '../../pages/Home.css';
 
 export default function ModulosDespensa({ usuario, salir }: { usuario: Usuario; salir: () => Promise<void> }) {
   return <DespensaProvider usuario={usuario} salir={salir}>
-    <IonTabs>
+    <NotificacionesProvider><IonTabs>
       <IonRouterOutlet>
         <Route path="/home/inventario" element={<Inventario />} />
         <Route path="/home/preparaciones" element={<Inventario tipo="preparacion" />} />
@@ -30,6 +31,6 @@ export default function ModulosDespensa({ usuario, salir }: { usuario: Usuario; 
         <IonTabButton tab="alertas" href="/home/alertas"><IonIcon icon={notificationsOutline} /><IonLabel>Alertas</IonLabel></IonTabButton>
         <IonTabButton tab="configuracion" href="/home/configuracion"><IonIcon icon={settingsOutline} /><IonLabel>Ajustes</IonLabel></IonTabButton>
       </IonTabBar>
-    </IonTabs>
+    </IonTabs></NotificacionesProvider>
   </DespensaProvider>;
 }

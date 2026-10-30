@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { IonButton, IonCard, IonContent, IonInput, IonPage, useIonToast } from '@ionic/react';
 import EncabezadoAuth from '../components/EncabezadoAuth';
 import { iniciarSesion } from '../services/auth';
+import AccesoGoogle from '../components/AccesoGoogle';
    
 export default function Login() {
   const navigate = useNavigate();
@@ -10,8 +11,10 @@ export default function Login() {
   const [correo, setCorreo] = useState('');
   const [password, setPassword] = useState('');
   const [enviando, setEnviando] = useState(false);
+  const [googleOcupado, setGoogleOcupado] = useState(false);
 
   const entrar = async () => {
+    if (enviando || googleOcupado) return;
     if (!correo.trim() || !password) {
       mostrarToast({ message: 'Escribe tu correo y contraseña', duration: 2500, color: 'warning', position: 'top' });
       return;
@@ -55,9 +58,10 @@ export default function Login() {
                 onKeyUp={(e) => e.key === 'Enter' && entrar()}
               />
 
-              <IonButton expand="block" disabled={enviando} onClick={entrar}>
+              <IonButton expand="block" disabled={enviando || googleOcupado} onClick={entrar}>
                 {enviando ? 'Entrando…' : 'Entrar'}
               </IonButton>
+              <AccesoGoogle disabled={enviando} onBusyChange={setGoogleOcupado} onSuccess={() => navigate('/home', { replace: true })} />
               <IonButton expand="block" fill="clear" routerLink="/registro">
                 Crear una cuenta
               </IonButton>

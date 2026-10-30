@@ -3,7 +3,14 @@
     <color name="ic_launcher_background">#FFFFFF</color>
     <string name="app_name">frontend</string>
     <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="default_web_client_id" translatable="false">911964906239-bqoe8igov2t3k2o3q4kaao046ir9amt1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">911964906239</string>
+    <string name="google_api_key" translatable="false">AIzaSyAh2QpFI0cJzM4_quIDJWYDUPsu8vBI46s</string>
+    <string name="google_app_id" translatable="false">1:911964906239:android:5e371df745f3e2ef6762ca</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAh2QpFI0cJzM4_quIDJWYDUPsu8vBI46s</string>
+    <string name="google_storage_bucket" translatable="false">gestor-despensa.firebasestorage.app</string>
     <string name="package_name">io.ionic.starter</string>
+    <string name="project_id" translatable="false">gestor-despensa</string>
     <string name="title_activity_main">frontend</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         

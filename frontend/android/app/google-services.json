@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "911964906239",
+    "project_id": "gestor-despensa",
+    "storage_bucket": "gestor-despensa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911964906239:android:5e371df745f3e2ef6762ca",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911964906239-vmh0sjhm08c96feves6lm93vhj1thk8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.ionic.starter",
+            "certificate_hash": "0e8601ccc41a7cd80cb526a64240eb277789bcec"
+          }
+        },
+        {
+          "client_id": "911964906239-bqoe8igov2t3k2o3q4kaao046ir9amt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh2QpFI0cJzM4_quIDJWYDUPsu8vBI46s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911964906239-bqoe8igov2t3k2o3q4kaao046ir9amt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
