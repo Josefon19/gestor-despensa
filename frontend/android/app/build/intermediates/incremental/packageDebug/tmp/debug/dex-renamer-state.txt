@@ -1,4 +1,4 @@
-#Fri Oct 30 00:16:37 CST 2026
+#Sun Nov 01 23:07:48 CST 2026
 base.0=C\:\\Users\\ortli\\gestor-despensa\\frontend\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\ortli\\gestor-despensa\\frontend\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\10\\classes.dex
 base.10=C\:\\Users\\ortli\\gestor-despensa\\frontend\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
